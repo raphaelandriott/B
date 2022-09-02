@@ -32,6 +32,289 @@ https://code.jquery.com/jquery-3.6.0.min.js
   <script src="https://kit.fontawesome.com/a12779391a.js" crossorigin="anonymous"></script>
 
   <style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: 'poppins';
+      align-items: center;
+      text-align: center;
+    }
+
+
+    dd {
+      margin-inline-start: 0px;
+      margin-bottom: 35px;
+    }
+    .titulo{
+      background-color: #fe2e54; display: block; text-align: center; color: #fff; font-size: 26px; padding: 4% 0 4% 0; border-radius: 7px 7px 0 0;">
+    }
+
+    @media screen and (max-width: 480px) {
+      #joaoegay {
+        width: 480;
+        height: 380;
+      }
+
+      h1{
+        font-size: 35px;
+      }
+       
+      .titulo{
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      
+    }
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  </style>
+
+</head>
+
+<body>
+
+  <div style="background-color: #F0F0F0; display: block; border-radius: 7px; -webkit-box-shadow: -1px 0px 80px -6px rgba(64,63,64,1); -moz-box-shadow: -1px 0px 80px -6px rgba(64,63,64,1); box-shadow: -1px 0px 80px -6px rgba(64,63,64,1);">
+  
+    <header class="titulo">
+      
+      <h1>Para lembrar-nos do nosso início </h1>
+      <i class="fa-solid fa-heart fa-4x"></i>
+    </header>
+
+
+
+    <div style="padding: 5%; text-align-last: center;padding: 50px 0 0 0 ; ">
+      <!-- <div style="padding: 4%; padding: 50px 0 0 0 ; "> -->
+      <div style="padding: 5%;">
+
+        <!-- <div class="block" style="margin-right: 50px; "> -->
+        <div style="column-count: 2;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-clock-history"
+            viewBox="0 0 16 16">
+            <path
+              d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z" />
+            <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z" />
+            <path
+              d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+          </svg>
+          <h2 for="date"><strong>Quando nos conhecemos </strong></h2>
+          <input type="date" class="date" name="date" id="d1" value="2022-02-23">
+          <label for="time"><strong></strong></label><br>
+          <input type="time" class="date" data-theme="a" data-clear-btn="true" name="time" id="t1" value="02:59">
+          <!-- </div> -->
+
+          <br>
+          <!-- <p>&nbsp;</p> -->
+          <!-- <div class="block" style="margin-left: 100px; "> -->
+          <!-- <div style="margin-left: 100px; "> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor"
+            class="bi bi-calendar-event-fill" viewBox="0 0 16 16">
+            <path
+              d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-3.5-7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z" />
+          </svg>
+          <h2 for="date"><strong>Hoje</strong></h2>
+          <input type="date" class="date" name="date" id="d2" value="">
+          <label for="time"><strong></strong></label><br>
+          <input type="time" class="date" data-theme="a" data-clear-btn="true" name="time" id="t2" value="">
+        </div>
+
+      </div>
+
+
+    </div>
+    <br><br>
+    <div style="margin-bottom: 150px;">
+      <!-- <p>&nbsp;</p> -->
+      <h2 style="text-align:center; margin-top: 0px;">Já fazem</h2>
+      <dl id="diff" ; style="text-align:center;">
+        <!-- <dt>Intervalo: </dt>
+        <dd> Data Inicial: 2022-02-23 03:00 || Data Final: 2022-06-24 00:00</dd> -->
+        <dt>Em minutos: </dt>
+        <dd>0 minutos</dd>
+        <dt>Em horas: </dt>
+        <dd>0 horas, 0 minutos</dd>
+        <dt>Em dias: </dt>
+        <dd>0 dias, 0 horas, 0 minutos</dd>
+        <dt>Em anos: </dt>
+        <dd>0 anos e 0 dias </dd>
+      </dl>
+
+    </div>
+
+
+    <script>
+
+      function append(dl, dtTxt, ddTxt) {
+        var dt = document.createElement("dt");
+        var dd = document.createElement("dd");
+        dt.textContent = dtTxt;
+        dd.textContent = ddTxt;
+        dl.appendChild(dt);
+        dl.appendChild(dd);
+      }
+
+      $(document).ready(function () {
+
+        var today = new Date();
+        $('#d2').val(today.getFullYear() + "-" + ('0' + (today.getMonth() + 1)).slice(-2) + "-" + ('0' + (today.getDate())).slice(-2));
+        // $('#d2').val($('#d1').val());
+        // $('#t1').val('00:00');
+        $('#t2').val('03:00');
+        // $('#t2').val(today.getHours());
+
+
+        //
+        //$('#d1 #d2 #t1 #t2').
+        $('#d1, #d2, #t1, #t2').on('change', function (ev) {
+          var dl = document.getElementById("diff");
+          while (dl.hasChildNodes()) {
+            dl.removeChild(dl.lastChild);
+          }
+
+          var date1 = new Date($('#d1').val() + " " + $('#t1').val()).getTime();
+          var date2 = new Date($('#d2').val() + " " + $('#t2').val()).getTime();
+          // append(dl, "Intervalo: ", " Data Inicial: " + $('#d1').val() + " " + $('#t1').val() + "  ||  Data Final: " + $('#d2').val() + " " + $('#t2').val());
+
+          var msec = date2 - date1;
+          var mins = Math.floor(msec / 60000);
+          var hrs = Math.floor(mins / 60);
+          var days = Math.floor(hrs / 24);
+          var yrs = Math.floor(days / 365);
+
+          // com os anos
+          // append(dl, "", yrs + " anos e " + days + " dias");
+          // days = days % 365;
+
+
+          append(dl, "", days + " dias que nos conhecemos");
+          days = days % 365;
+
+          append(dl, "", (days * 5) + " horas em média que já conversamos até hoje");
+
+          append(dl, "Se calcular em horas ou minutos que te conheço, esse tempo seria ");
+
+          append(dl, "", hrs + " horas, ou " + mins + " minutos");
+          hrs = hrs % 24;
+          // append(dl, "", mins + " minutos", hrs);
+          // mins = mins % 60;
+          // append(dl, "Em anos: ", yrs + " anos e " + days + " dias ");
+        });
+
+        // trigger change
+        $('#d1').change();
+
+      });
+
+    </script>
+
+    <div style="padding: 0%; text-align-last: center; background-color: #fe2e54; padding: 150px 0 150px 0 ;">
+      <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor"
+        class="bi bi-film" viewBox="0 0 16 16">
+        <path
+          d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0v6h8V1H4zm8 8H4v6h8V9zM1 1v2h2V1H1zm2 3H1v2h2V4zM1 7v2h2V7H1zm2 3H1v2h2v-2zm-2 3v2h2v-2H1zM15 1h-2v2h2V1zm-2 3v2h2V4h-2zm2 3h-2v2h2V7zm-2 3v2h2v-2h-2zm2 3h-2v2h2v-2z" />
+      </svg>
+      <h1 style="color: white">
+        Para nossos momentos juntos
+      </h1>
+
+      <iframe id="joaoegay" src="https://minhateca.su/~A7nUhKX" width="355" height="420" allowfullscreen></iframe>
+      <br>
+      <h4 style="color: white"> tem uma propaganda chatinha ai é só fechar e voltar aqui de novo kkk</h4>
+      <a href="https://minhateca.ru/assistir-ou-baixar-novela-cheias-de-charme-todos-os-capitulos"><button>Link do
+          WhatsApp</button></a>
+    </div>
+
+
+
+    <div style="padding: 0%; text-align-last: center; padding: 150px 0 150px 0 ;">
+      
+      <svg style="color: rgb(0, 170, 255);" xmlns="http://www.w3.org/2000/svg" width="86" height="86"
+        fill="currentColor" class="bi bi-clouds" viewBox="0 0 16 16">
+        <path
+          d="M16 7.5a2.5 2.5 0 0 1-1.456 2.272 3.513 3.513 0 0 0-.65-.824 1.5 1.5 0 0 0-.789-2.896.5.5 0 0 1-.627-.421 3 3 0 0 0-5.22-1.625 5.587 5.587 0 0 0-1.276.088 4.002 4.002 0 0 1 7.392.91A2.5 2.5 0 0 1 16 7.5z" />
+        <path
+          d="M7 5a4.5 4.5 0 0 1 4.473 4h.027a2.5 2.5 0 0 1 0 5H3a3 3 0 0 1-.247-5.99A4.502 4.502 0 0 1 7 5zm3.5 4.5a3.5 3.5 0 0 0-6.89-.873.5.5 0 0 1-.51.375A2 2 0 1 0 3 13h8.5a1.5 1.5 0 1 0-.376-2.953.5.5 0 0 1-.624-.492V9.5z" />
+      </svg>
+
+      <h1 style="color:  rgb(0, 170, 255);">
+        Para nos lembrar de quando vamos nos ver
+      </h1>
+
+      <br>
+      <br>
+      <br>
+      <div style="column-count: 2;">
+        <br>
+        <i style="color:  rgb(0, 170, 255);" class="fa-solid fa-calendar-days fa-3x"></i>
+        <br>
+        <br>
+        <a href="https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/wait-times.html"><button>Datas
+            disponíveis - Visto</button></a>
+        <br>
+        <br>
+        <br>
+        <i style="color:  rgb(0, 170, 255);" class="fa-solid fa-plane-departure fa-3x"></i>
+        <br>
+        <br>
+        <a
+          href="https://www.google.com/travel/flights/search?tfs=CBwQAhojagcIARIDQlNCEgoyMDIyLTA3LTA5cgwIAxIIL20vMHBseTAaI2oMCAMSCC9tLzBwbHkwEgoyMDIyLTA3LTEzcgcIARIDQlNCcAGCAQsI____________AUABSAGYAQE&hl=pt-BR"><button>Voos
+            pra te ver</button></a>
+      </div>
+    </div>
+  </div>
+
+  <div style="padding: 4%; text-align-last: center; background-color: #fe2e54; padding: 150px 50px 150px 50px ;">
+    <h2 style="color: white;">te amo</h2>
+    <i style="color: white;" class="fa-solid fa-heart fa-5x"></i>
+  </div>
+  <h8 style="color: transparent;">-</h8>
+  </div>
+
+</body>
+
+<footer>
+  <div>
+  </div>
+</footer>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+  <script src="
+https://code.jquery.com/jquery-3.6.0.js
+"></script>
+
+  <script src="
+https://code.jquery.com/jquery-migrate-3.4.0.js
+"></script>
+
+  <script src="
+https://code.jquery.com/jquery-3.6.0.js
+"></script>
+
+  <script src="
+https://code.jquery.com/jquery-3.6.0.min.js
+"></script>
+
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/pasta/css/all.css">
+  <script src="https://kit.fontawesome.com/a12779391a.js" crossorigin="anonymous"></script>
+
+  <style>
     h1, h2, h3, h4, h5{
       font-family: 'poppins';
     }
@@ -232,3 +515,4 @@ https://code.jquery.com/jquery-3.6.0.min.js
 </footer>
 
 </html>
+ -->
